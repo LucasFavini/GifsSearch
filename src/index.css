@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+body{
+    padding: 4%;
+    background: rgba(34,34,34,0.75);
+    background-color: rgba(0,0,0,0.1);
+    border: 15px solid black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2{
+    font-family: 'Russo one'; 
+}
+input {
+    border: 2px solid black;
+    font: bold;    
+    font-family: 'Roboto';
+    font-size: 22px;
+    height: 33px;
+    width: 100%;
+}
+
+.card-grid ul{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap:wrap;      
+}
+
+.contenedor {     
+    background-color: #141314;
+    border: 2px solid #535353;
+    border-radius: 6px;
+    color: whitesmoke;  
+    margin: 1%;  
+    padding: 1%;
+    overflow: hidden;
+    text-align: center;  
+    border: 5px solid black;
+  
+}
+
+.contenedor img {
+    max-height: 170px;
+    
+}
+
+.spinner-border
+{
+    margin-top: 5%;
+    margin-left: 40%;
+    padding: 5%;
+    margin-bottom: 15%;
 }
